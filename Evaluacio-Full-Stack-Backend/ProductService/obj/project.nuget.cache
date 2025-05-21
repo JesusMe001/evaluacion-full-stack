@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VX9c4kXeePM=",
+  "dgSpecHash": "Aslrhm4/2HY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\luisj\\source\\repos\\Prueva-Full-Stack\\ProductService\\ProductService.csproj",
+  "projectFilePath": "C:\\Users\\luisj\\Desktop\\Evaluacion-Full-Stack\\Evaluacio-Full-Stack-Backend\\ProductService\\ProductService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisj\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\luisj\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

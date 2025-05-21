@@ -24,13 +24,13 @@ Aplicación full-stack para la gestión de productos y transacciones de inventar
 
 ## Configuración Inicial
 
-## Ejecución del Backend (.NET 8)
+# Ejecución del Backend (.NET 8)
 
-### Configuración común:
+## Configuración común:
 1. Clonar el repositorio
 2. Configurar cadenas de conexión en `appsettings.json` de cada servicio:
 
-```json
+\```json
 {
   "ConnectionStrings": {
     "InventoryDB": "Server=localhost;Database=InventoryServiceDB;Trusted_Connection=True;TrustServerCertificate=True;"
@@ -43,53 +43,66 @@ Aplicación full-stack para la gestión de productos y transacciones de inventar
   },
   "AllowedHosts": "*"
 }
-ProductService:
-bash
+\```
+
+## ProductService
+\```bash
 cd src/backend/ProductService
 dotnet restore
 dotnet build
 dotnet run
-Swagger UI: https://localhost:7111/swagger
+\```
 
-Endpoint base: https://localhost:7111/api/products
+- **Swagger UI:** https://localhost:7111/swagger  
+- **Endpoint base:** https://localhost:7111/api/products
 
-TransactionService:
-bash
+## TransactionService
+\```bash
 cd src/backend/TransactionService
 dotnet restore
 dotnet build
 dotnet run
-Swagger UI: https://localhost:7168/swagger
+\```
 
-Endpoint base: https://localhost:7168/api/transactions
+- **Swagger UI:** https://localhost:7168/swagger  
+- **Endpoint base:** https://localhost:7168/api/transactions
 
-Ejecución del Frontend (Angular 18+)
-Instalación:
-bash
+# Ejecución del Frontend (Angular 18+)
+
+## Instalación:
+\```bash
 cd src/frontend/inventory-app
 npm install
-Configuración de ambientes:
-src/environments/environment.ts
+\```
 
-typescript
+## Configuración de ambientes:
+`src/environments/environment.ts`  
+\```typescript
 export const environment = {
   production: false,
   productApiUrl: 'https://localhost:7111/api',
   transactionApiUrl: 'https://localhost:7168/api',
   enableDebug: true
 };
-Ejecución:
-bash
+\```
+
+## Ejecución:
+\```bash
 ng serve
-Aplicación disponible en: http://localhost:4200
+\```
 
-Características Angular 18:
-✅ Uso de Signals para estado reactivo
+- **Aplicación disponible en:** http://localhost:4200
 
-✅ Standalone Components como arquitectura predeterminada
-
-✅ Nuevo control de flujo (@if, @for)
-
-✅ HttpClient con interceptores modernos
-
+## Características Angular 18:
+✅ Uso de Signals para estado reactivo  
+✅ Standalone Components como arquitectura predeterminada  
+✅ Nuevo control de flujo (@if, @for)  
+✅ HttpClient con interceptores modernos  
 ✅ Mejor rendimiento en modo desarrollo
+
+## Evidencias
+
+### Listado dinámico de productos y transacciones con paginación. 
+
+![Product list ](Capturas-imagenes/Products.png)
+
