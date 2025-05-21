@@ -102,7 +102,65 @@ ng serve
 
 ## Evidencias
 
-### Listado dinámico de productos y transacciones con paginación. 
+## Listado dinámico de productos y transacciones con paginación. 
+
+### Backend
 
 ![Product list ](Capturas-imagenes/Products.png)
 
+[Transaction list ](Capturas-imagenes/Transaction.png)
+
+### Frontend
+
+![Product list ](Capturas-imagenes/Products-frontend.png)
+
+[Transaction list ](Capturas-imagenes/Transaction-frontend.png)
+
+## Pantalla para la creación de productos. 
+
+### Backend
+
+![Product create ](Capturas-imagenes/Products-post.png)
+
+
+### Frontend
+
+![Product create ](Capturas-imagenes/Products-frontend-agregar.png)
+
+## Pantalla para la edición de productos.
+
+### Backend
+
+![Product put ](Capturas-imagenes/Products-put.png)
+
+### Frontend
+
+![Product put  ](Capturas-imagenes/Products-frontend-editar.png)
+
+## Pantalla para la creación de transacciones. 
+
+### Backend
+
+[Transaction create ](Capturas-imagenes/Transaction-post.png)
+
+### Frontend
+
+[Transaction create ](Capturas-imagenes/Transaction-frontend-crear.png)
+
+## Pantalla para la edición de transacciones. 
+
+### Backend
+
+[Transaction put ](Capturas-imagenes/Transaction-put.png)
+
+### Frontend
+
+[Transactionput  ](Capturas-imagenes/Transaction-frontend-editar.png)
+
+## Pantalla de filtros dinámicos.
+
+### Frontend
+
+![Product filtrar ](Capturas-imagenes/Products-frontend.png)
+
+[Transaction filtrar ](Capturas-imagenes/Transaction-frontend-filtrar.png)
