@@ -5,8 +5,6 @@ Aplicación full-stack para la gestión de productos y transacciones de inventar
 - **Frontend**: Angular 18+
 - **Base de datos**: SQL Server
 
-![Diagrama de arquitectura](assets/architecture-diagram.png) *(opcional: agregar diagrama)*
-
 ## Requisitos Técnicos
 
 ### Backend (ProductService y TransactionService):
